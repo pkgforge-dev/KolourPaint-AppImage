@@ -14,7 +14,7 @@ export DEPLOY_QT=1
 export QT_DIR=qt6
 
 # Deploy dependencies
-quick-sharun /usr/bin/kolourpaint /usr/lib/libkolourpaint*.so* /usr/share/kolourpaint
+quick-sharun /usr/bin/kolourpaint /usr/lib/libkolourpaint*.so* /usr/share/kolourpaint /usr/lib/qt6/plugins/kf6
 
 # Additional changes can be done in between here
 
