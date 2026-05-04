@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/KolourPaint-AppImage)](https://github.com/pkgforge-dev/KolourPaint-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://invent.kde.org/graphics/kolourpaint/-/raw/master/pics/app/sc-apps-kolourpaint.svgz" width="128" />
+  <img src="https://invent.kde.org/graphics/kolourpaint/-/avatar" width="128" />
 </p>
 
 
