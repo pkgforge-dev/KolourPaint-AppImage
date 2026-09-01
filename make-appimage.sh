@@ -11,9 +11,10 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/128x128/apps/kolourpaint.png
 export DESKTOP=/usr/share/applications/org.kde.kolourpaint.desktop
 export USE_HOST_DRIVERS_EXPERIMENTAL=1
+export DEPLOY_KF=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/kolourpaint /usr/lib/libkolourpaint*.so* /usr/share/kolourpaint /usr/lib/qt6/plugins/kf6
+quick-sharun /usr/bin/kolourpaint /usr/lib/libkolourpaint*.so* /usr/share/kolourpaint
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
