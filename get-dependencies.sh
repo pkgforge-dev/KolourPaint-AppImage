@@ -10,4 +10,4 @@ pacman -Syu --noconfirm kolourpaint kvantum lxqt-qtplugin qt6ct
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano ffmpeg-mini kiconthemes-mini
+get-debloated-pkgs --add-common --prefer-nano ffmpeg-mini
